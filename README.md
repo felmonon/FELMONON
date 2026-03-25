@@ -28,6 +28,8 @@ Full-stack engineer in Calgary, AB. I build with TypeScript and Python — mostl
 
 ## What I've built
 
+- **[msw-inspector](https://github.com/felmonon/msw-inspector)** — CLI and GitHub Action that finds gaps between MSW handlers and actual API usage. Published to [npm](https://www.npmjs.com/package/msw-inspector-cli) and [GitHub Marketplace](https://github.com/marketplace/actions/msw-inspector). TypeScript, ts-morph, AST analysis.
+
 - **[docagent-studio](https://github.com/felmonon/docagent-studio)** — Local-first document QA with hybrid retrieval (FTS5 + vector), citations, GraphRAG navigation, and offline eval. Python, SQLite, FastAPI.
 - **[jungian-typology-assessment](https://github.com/felmonon/jungian-typology-assessment)** — Full-stack personality assessment live at [typejung.com](https://typejung.com). Auth, Stripe billing, AI-generated reports, SEO. Next.js, Supabase.
 - **[collab-editor](https://github.com/felmonon/collab-editor)** — Real-time collaborative editor with WebSocket sync, remote cursors, autosave, and multi-provider auth. Live at [collab-editor-sand.vercel.app](https://collab-editor-sand.vercel.app). Next.js, Socket.io, PostgreSQL.
