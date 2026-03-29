@@ -1,51 +1,32 @@
 # Hey, I'm Felmon
 
-Independent full-stack engineer in Calgary, AB. I build with TypeScript and Python, mostly AI tooling, developer tools, and web infrastructure. I contribute upstream fixes to the open-source projects I actually use.
+Independent full-stack engineer in Calgary, AB. I build AI products, developer tools, and web applications with TypeScript and Python.
 
-## Current OSS work
+I care about shipping real software, tightening product UX, and upstreaming fixes to the open-source projects I actually depend on.
 
-Recent open PRs:
+## What I work on
 
-- [fix(browser): restore setupWorker lifecycle](https://github.com/mswjs/msw/pull/2682) — **mswjs/msw**
-- [feat: add long-term chunk geometry caching](https://github.com/zardoy/minecraft-web-client/pull/529) — **minecraft-web-client** (+1896/-31)
-- [test_models: fuzz openpilot TX against panda on replayed routes](https://github.com/commaai/openpilot/pull/37726) — **commaai/openpilot**
-- [fix(language-server): rewrite Astro component auto-import names](https://github.com/withastro/astro/pull/15908) — **withastro/astro**
-- [Fix defineLiveCollection interface loader typing](https://github.com/withastro/astro/pull/16018) — **withastro/astro**
-- [Fix getImage error message during astro sync](https://github.com/withastro/astro/pull/16017) — **withastro/astro**
-- [Fix false positive missing-content audit for hidden anchors](https://github.com/withastro/astro/pull/16016) — **withastro/astro**
-- [fix: initialize safety replay test state before segment setup](https://github.com/commaai/opendbc/pull/3207) — **commaai/opendbc**
+- AI tooling and agent workflows
+- Developer tools, static analysis, and testing infrastructure
+- Full-stack product engineering across frontend, backend, and infra
 
-## Selected merged contributions
+## Selected OSS contributions
 
-| Project | PR | What it fixed |
-|---|---|---|
-| **withastro/astro** | [#16017](https://github.com/withastro/astro/pull/16017) | getImage error message during astro sync |
-| **openai/openai-agents-python** | [#2725](https://github.com/openai/openai-agents-python/pull/2725) | Race condition in SQLAlchemy session writes |
-| **openai/openai-agents-python** | [#2710](https://github.com/openai/openai-agents-python/pull/2710) | Streaming docs for cancel-after-turn |
-| **withastro/astro** | [#15927](https://github.com/withastro/astro/pull/15927) | Language server deferring HTML completions to TS |
-| **mswjs/msw** | [#2676](https://github.com/mswjs/msw/pull/2676) | `RequestHandler` type not accepted in setup functions |
-| **mswjs/msw** | [#2669](https://github.com/mswjs/msw/pull/2669) | Open handles from infinite delays in Node |
-| **commaai/opendbc** | [#3052](https://github.com/commaai/opendbc/pull/3052) | Caching hypothesis strategies in car tests |
+- **[mswjs/msw](https://github.com/mswjs/msw)**: fixed `RequestHandler` typing issues and cleaned up open-handle behavior in delayed Node tests
+- **[withastro/astro](https://github.com/withastro/astro)**: fixed `getImage` sync errors and language-server auto-import behavior
+- **[openai/openai-agents-python](https://github.com/openai/openai-agents-python)**: fixed a SQLAlchemy session race condition and improved streaming docs
+- **[commaai/opendbc](https://github.com/commaai/opendbc)**: improved car-test performance by caching hypothesis strategies
 
-## What I've built
+## Selected projects
 
-- **[msw-inspector](https://github.com/felmonon/msw-inspector)** — CLI and GitHub Action that finds gaps between MSW handlers and actual API usage. Published to [npm](https://www.npmjs.com/package/msw-inspector-cli) and [GitHub Marketplace](https://github.com/marketplace/actions/msw-inspector). TypeScript, ts-morph, AST analysis.
-
-- **[docagent-studio](https://github.com/felmonon/docagent-studio)** — Local-first document QA with hybrid retrieval (FTS5 + vector), citations, GraphRAG navigation, and offline eval. Python, SQLite, FastAPI.
-- **[jungian-typology-assessment](https://github.com/felmonon/jungian-typology-assessment)** — Full-stack personality assessment live at [typejung.com](https://typejung.com). Auth, Stripe billing, AI-generated reports, SEO. Next.js, Supabase.
-- **[collab-editor](https://github.com/felmonon/collab-editor)** — Real-time collaborative editor with WebSocket sync, remote cursors, autosave, and multi-provider auth. Live at [collab-editor-sand.vercel.app](https://collab-editor-sand.vercel.app). Next.js, Socket.io, PostgreSQL.
-- **[neuroflow](https://github.com/felmonon/neuroflow)** — ADHD-focused planner with AI task breakdown and body-doubling support. Live at [neuroflow-gamma.vercel.app](https://neuroflow-gamma.vercel.app). Next.js, Supabase.
-- **[constitutional-playground](https://github.com/felmonon/constitutional-playground)** — Side-by-side comparison of Constitutional AI critique/revision loops. Next.js, Anthropic API.
-
-## Stack
-
-**Day-to-day:** TypeScript, Python, Next.js, React, Node.js, FastAPI, PostgreSQL, Supabase, Prisma
-
-**AI/ML:** OpenAI SDK, Anthropic SDK, RAG pipelines, sentence-transformers, Ollama
-
-**Infra:** Vercel, Docker, SQLite, Redis
+- **[msw-inspector](https://github.com/felmonon/msw-inspector)**: CLI and GitHub Action for finding gaps between MSW handlers and real API usage
+- **[docagent-studio](https://github.com/felmonon/docagent-studio)**: local-first document QA with hybrid retrieval, citations, and offline evaluation
+- **[jungian-typology-assessment](https://github.com/felmonon/jungian-typology-assessment)**: full-stack assessment product with auth, billing, and AI-generated reports
+- **[collab-editor](https://github.com/felmonon/collab-editor)**: real-time collaborative editor with sync, autosave, and PostgreSQL persistence
+- **[neuroflow](https://github.com/felmonon/neuroflow)**: ADHD-focused planner with AI task breakdown and body-doubling support
 
 ## Links
 
+- [Portfolio](https://github.com/felmonon/portfolio)
 - [felmonfekadu.com](https://www.felmonfekadu.com)
 - [linkedin.com/in/felmon-fekadu](https://www.linkedin.com/in/felmon-fekadu/)
