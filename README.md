@@ -27,6 +27,6 @@ I care about shipping real software, tightening product UX, and upstreaming fixe
 
 ## Links
 
-- [Portfolio](https://github.com/felmonon/portfolio)
-- [felmonfekadu.com](https://www.felmonfekadu.com)
+- [Portfolio](https://felmon.tech)
+- [felmon.tech](https://felmon.tech)
 - [linkedin.com/in/felmon-fekadu](https://www.linkedin.com/in/felmon-fekadu/)
