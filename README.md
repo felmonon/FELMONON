@@ -1,32 +1,41 @@
-# Hey, I'm Felmon
+# Felmon Fekadu
 
-Independent full-stack engineer in Calgary, AB. I build AI products, developer tools, and web applications with TypeScript and Python.
+Full-stack software developer in Calgary, Canada. I build product systems with TypeScript, Python, React, Node.js, Supabase, Stripe, Vercel, and practical AI integrations.
 
-I care about shipping real software, tightening product UX, and upstreaming fixes to the open-source projects I actually depend on.
+My strongest signal is public proof: shipped products, inspectable repositories, and upstream pull requests accepted by major open-source projects.
 
-## What I work on
+## Current Positioning
 
-- AI tooling and agent workflows
-- Developer tools, static analysis, and testing infrastructure
-- Full-stack product engineering across frontend, backend, and infra
+I work best at the intersection of product engineering and systems discipline:
 
-## Selected OSS contributions
+- Full-stack product flows with authentication, payments, persistence, and email lifecycle
+- AI-assisted product features that sit inside real user workflows
+- Developer tools, testing infrastructure, and static analysis
+- Real-time collaboration, document retrieval, and local-first AI systems
+- Open-source fixes that survive maintainer review
 
-- **[mswjs/msw](https://github.com/mswjs/msw)**: fixed `RequestHandler` typing issues and cleaned up open-handle behavior in delayed Node tests
-- **[withastro/astro](https://github.com/withastro/astro)**: fixed `getImage` sync errors and language-server auto-import behavior
-- **[openai/openai-agents-python](https://github.com/openai/openai-agents-python)**: fixed a SQLAlchemy session race condition and improved streaming docs
-- **[commaai/opendbc](https://github.com/commaai/opendbc)**: improved car-test performance by caching hypothesis strategies
+## Selected Shipped Products
 
-## Selected projects
+- [TypeJung](https://typejung.com) - full-stack Jungian assessment product with a 42-question scoring engine, saved results, auth, private email offers, Stripe checkout, and AI-assisted reports. First real paid upgrade validated end to end.
+- [msw-inspector](https://github.com/felmonon/msw-inspector) - CLI and GitHub Action for finding gaps between MSW handlers and real API usage. Published as an npm package and GitHub Action.
+- [DocAgent Studio](https://github.com/felmonon/docagent-studio) - local-first document QA with hybrid retrieval, citations, GraphRAG-style navigation, and offline evaluation.
+- [Collab Editor](https://github.com/felmonon/collab-editor) - real-time collaborative editor with Tiptap, Socket.io sync, autosave, and PostgreSQL persistence.
+- [NeuroFlow](https://github.com/felmonon/neuroflow) - ADHD-focused planner with AI task breakdown, scheduling flows, and body-doubling support.
+- [AI Speech Coach](https://github.com/felmonon/ai-speech-coach) - speech coaching app with live video sessions, Tavus integration, and saved feedback workflows.
 
-- **[msw-inspector](https://github.com/felmonon/msw-inspector)**: CLI and GitHub Action for finding gaps between MSW handlers and real API usage
-- **[docagent-studio](https://github.com/felmonon/docagent-studio)**: local-first document QA with hybrid retrieval, citations, and offline evaluation
-- **[jungian-typology-assessment](https://github.com/felmonon/jungian-typology-assessment)**: full-stack assessment product with auth, billing, and AI-generated reports
-- **[collab-editor](https://github.com/felmonon/collab-editor)**: real-time collaborative editor with sync, autosave, and PostgreSQL persistence
-- **[neuroflow](https://github.com/felmonon/neuroflow)**: ADHD-focused planner with AI task breakdown and body-doubling support
+## Selected Open-Source Contributions
+
+- [openai/openai-agents-python](https://github.com/openai/openai-agents-python) - fixed a SQLAlchemy session race condition and clarified streaming behavior docs.
+- [mswjs/msw](https://github.com/mswjs/msw) - fixed Node test open-handle behavior and RequestHandler typing issues.
+- [withastro/astro](https://github.com/withastro/astro) - fixed language server completion behavior and image tooling issues.
+- [commaai/opendbc](https://github.com/commaai/opendbc) - improved CI test performance by caching Hypothesis strategies.
+
+## Core Stack
+
+TypeScript, JavaScript, Python, React, Next.js, Node.js, Express, PostgreSQL, Supabase, Stripe, Vercel, REST APIs, WebSockets, Playwright, Vitest, GitHub Actions.
 
 ## Links
 
-- [Portfolio](https://felmon.tech)
-- [felmon.tech](https://felmon.tech)
-- [linkedin.com/in/felmon-fekadu](https://www.linkedin.com/in/felmon-fekadu/)
+- Portfolio: [felmon.tech](https://felmon.tech)
+- GitHub: [github.com/felmonon](https://github.com/felmonon)
+- LinkedIn: [linkedin.com/in/felmonfekadu](https://www.linkedin.com/in/felmonfekadu/)
