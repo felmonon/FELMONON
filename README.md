@@ -1,6 +1,6 @@
 # Felmon Fekadu
 
-Full-stack software developer in Calgary, Canada. I build product systems with TypeScript, Python, React, Node.js, Supabase, Stripe, Vercel, and practical AI integrations.
+Full-stack product engineer in Calgary, Canada. I ship product systems with TypeScript, Python, React, Node.js, Supabase, Stripe, Vercel, and practical AI integrations.
 
 My strongest signal is public proof: shipped products, inspectable repositories, and upstream pull requests accepted by major open-source projects.
 
