@@ -1,62 +1,53 @@
 # Felmon Fekadu
 
-**Full-stack product engineer building developer tools, practical AI products, and production-grade TypeScript/Python systems.**
+**Developer-tools and applied-AI reliability engineer.** I build TypeScript and Python systems that make product and AI workflows more inspectable, testable, and dependable.
 
-Calgary, Canada. I ship product workflows end to end: auth, payments, persistence, email, tests, deploys, and AI integrations that fit inside real user workflows.
+Calgary, Alberta · Completing B.S. Computer Science, expected October 2026 · Open to Canada-based, remote, and U.S. relocation opportunities
 
-My strongest signal is public proof: shipped products, inspectable repositories, and pull requests reviewed and merged by maintainers at major open-source projects.
+## Why interview me
 
-## Current Focus
-
-- Maintaining [msw-inspector](https://github.com/felmonon/msw-inspector), an MIT-licensed TypeScript CLI and GitHub Action for finding drift between real API usage and MSW mock coverage. Published to npm as [msw-inspector-cli](https://www.npmjs.com/package/msw-inspector-cli), latest release [v0.1.4](https://github.com/felmonon/msw-inspector/releases/tag/v0.1.4).
-- Building AI product systems with retrieval, citations, evals, persistence, billing, and clear release paths.
-- Contributing small, reviewable fixes to open-source projects I use.
-
-## Selected OSS Work
-
-| Project | What I shipped | PR |
-| --- | --- | --- |
-| **msw-inspector** | Maintainer of a CLI and GitHub Marketplace Action for MSW mock coverage checks | [repo](https://github.com/felmonon/msw-inspector) |
-| **openai/openai-node** | Realtime sideband `call_id` connection support | [#1795](https://github.com/openai/openai-node/pull/1795) |
-| **openai/openai-agents-python** | Isolate merged MCP tool metadata | [#3114](https://github.com/openai/openai-agents-python/pull/3114) |
-| **openai/openai-agents-python** | Race-safe SQLAlchemySession first writes | [#2725](https://github.com/openai/openai-agents-python/pull/2725) |
-| **openai/openai-agents-python** | Clarify cancel-after-turn streaming docs | [#2710](https://github.com/openai/openai-agents-python/pull/2710) |
-| **withastro/astro** | Fix `defineLiveCollection` loader typing | [#16018](https://github.com/withastro/astro/pull/16018) |
-| **withastro/astro** | Descriptive `getImage` error on `astro sync` | [#16017](https://github.com/withastro/astro/pull/16017) |
-| **withastro/astro** | Fix false-positive a11y content audit | [#16016](https://github.com/withastro/astro/pull/16016) |
-| **withastro/astro** | Defer HTML expression completions to TS | [#15927](https://github.com/withastro/astro/pull/15927) |
-| **withastro/astro** | Rewrite component auto-import names | [#15908](https://github.com/withastro/astro/pull/15908) |
-| **mswjs/msw** | Accept `RequestHandler` type in setup fns | [#2676](https://github.com/mswjs/msw/pull/2676) |
-| **mswjs/msw** | Avoid open handles for infinite delays | [#2669](https://github.com/mswjs/msw/pull/2669) |
-| **google/adk-js** | Native addon agent deps in devtools | [#219](https://github.com/google/adk-js/pull/219) |
-| **google/benchmark** | Document `benchmark_min_time` CLI forms | [#2154](https://github.com/google/benchmark/pull/2154) |
-| **commaai/opendbc** | Cache Hypothesis strategies in car tests | [#3052](https://github.com/commaai/opendbc/pull/3052) |
-
-## Selected Product Work
-
-| Project | What it shows |
+| Evidence | What it proves |
 | --- | --- |
-| [TypeJung](https://typejung.com) · [repo](https://github.com/felmonon/jungian-typology-assessment) | Full-stack Jungian assessment with scoring, auth, saved results, Stripe checkout, and AI-assisted reports. Validated end to end with a real paid upgrade. |
-| [msw-inspector](https://github.com/felmonon/msw-inspector) · [Marketplace](https://github.com/marketplace/actions/msw-inspector) | Developer tool shipped as an npm CLI and GitHub Action, with contributor issues and public docs. |
-| [NeuroFlow](https://neuroflow-gamma.vercel.app) · [repo](https://github.com/felmonon/neuroflow) | ADHD-focused planner with AI task breakdown, scheduling flows, and body-doubling support. |
-| [Collab Editor](https://collab-editor-sand.vercel.app) · [repo](https://github.com/felmonon/collab-editor) | Real-time collaborative editor with Tiptap, Socket.io sync, autosave, and PostgreSQL persistence. |
-| [DocAgent Studio](https://github.com/felmonon/docagent-studio) | Local-first document QA with hybrid retrieval, citation-grounded answers, GraphRAG-style navigation, and offline evaluation. |
-| [AI Speech Coach](https://github.com/felmonon/ai-speech-coach) | Speech coaching app with live video sessions, Tavus integration, and saved feedback workflows. |
+| [MSW Inspector](https://github.com/felmonon/msw-inspector) | I maintain a TypeScript AST-analysis CLI and GitHub Action from parser design through CI, releases, docs, and contributor workflows. |
+| [14 maintainer-merged upstream PRs](https://github.com/search?q=author%3Afelmonon+is%3Apr+is%3Amerged+-user%3Afelmonon&type=pullrequests) | I can investigate an unfamiliar codebase, make a scoped change, validate it, and collaborate through maintainer review. |
+| [Agent Reliability Harness](https://github.com/felmonon/agent-reliability-harness) | I can turn agent requirements into deterministic, CI-readable checks for schemas, tools, budgets, safety, and grounding. |
+| [TypeJung](https://typejung.com/) | I can ship a customer-facing workflow with auth, persistence, Stripe billing, email, and bounded AI features. |
 
-## How I Work
+## Selected public proof
 
-- Full-stack product flows with authentication, payments, persistence, and email lifecycle.
-- AI-assisted features that sit inside real user workflows.
-- Developer tools, testing infrastructure, and static analysis.
-- Real-time collaboration, document retrieval, and local-first AI systems.
-- Open-source fixes that survive maintainer review.
+### Developer tools and reliability
 
-## Stack
+- **[MSW Inspector](https://github.com/felmonon/msw-inspector)** — MIT-licensed TypeScript CLI and [GitHub Marketplace Action](https://github.com/marketplace/actions/msw-inspector) that detects drift between real API calls and MSW handlers. Published as [`msw-inspector-cli`](https://www.npmjs.com/package/msw-inspector-cli) (current public release: v0.3.2). Read the [engineering case study](https://felmon.tech/case-studies/msw-inspector).
+- **[Agent Reliability Harness](https://github.com/felmonon/agent-reliability-harness)** — Python evaluation harness for policy-driven agent traces. It favors deterministic, explainable CI checks over opaque model-only judgment.
 
-TypeScript, JavaScript, Python, React, Next.js, Node.js, Express, PostgreSQL, Supabase, Stripe, Vercel, REST APIs, WebSockets, Playwright, Vitest, GitHub Actions.
+### Maintainer-reviewed upstream work
+
+I have **14 merged pull requests across 7 repositories in 5 organizations**. The most relevant examples:
+
+- [OpenAI Agents SDK: isolate merged MCP tool metadata](https://github.com/openai/openai-agents-python/pull/3114)
+- [OpenAI Node: add Realtime sideband `call_id` connection support](https://github.com/openai/openai-node/pull/1795)
+- [Astro: fix `defineLiveCollection` loader typing](https://github.com/withastro/astro/pull/16018)
+- [Astro: correct language-server completion behavior](https://github.com/withastro/astro/pull/15927)
+- [MSW: avoid open handles for infinite delays](https://github.com/mswjs/msw/pull/2669)
+- [Google ADK JS: include native addon agent dependencies in devtools](https://github.com/google/adk-js/pull/219)
+- [comma.ai opendbc: cache Hypothesis strategies in car tests](https://github.com/commaai/opendbc/pull/3052)
+
+For the problem, decision, test evidence, and maintainer outcome behind selected work, see [upstream contribution case studies](https://felmon.tech/case-studies/upstream-work).
+
+### Product engineering
+
+- **[TypeJung](https://typejung.com/)** · [source](https://github.com/felmonon/jungian-typology-assessment) — full-stack assessment product with persisted results, authentication, Stripe checkout, email capture, and AI-assisted reports. Portfolio metrics report 22 registered users and 7 paying users as of July 13, 2026; those figures are self-reported.
+
+## What I work on
+
+- Developer tools, testing infrastructure, SDKs, and developer experience
+- Applied AI reliability: evaluation, grounded output, tool-use boundaries, and CI feedback
+- Full-stack product systems: TypeScript, Python, React, Node.js, PostgreSQL, Supabase, Stripe, GitHub Actions
+- Small, reviewable open-source changes that solve real engineering problems
 
 ## Links
 
-- Portfolio: [felmon.tech](https://felmon.tech)
-- GitHub: [github.com/felmonon](https://github.com/felmonon)
-- LinkedIn: [linkedin.com/in/felmonfekadu](https://www.linkedin.com/in/felmonfekadu/)
+- [Portfolio and engineering case studies](https://felmon.tech/)
+- [Résumé](https://felmon.tech/resume.pdf)
+- [LinkedIn](https://www.linkedin.com/in/felmonfekadu/)
+- [Email](mailto:hello@felmon.tech)
